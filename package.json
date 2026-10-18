@@ -1,0 +1,15 @@
+{
+  "name": "smart-parking-system-root",
+  "version": "1.0.0",
+  "description": "Smart Parking System using React, Node.js, Express.js, and Greedy Algorithm (DAA Academic Project)",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client dev",
+    "dev": "node start-dev.js",
+    "test": "npm --prefix server test"
+  },
+  "keywords": ["smart-parking", "greedy-algorithm", "daa", "react", "express", "in-memory"],
+  "author": "DAA Student",
+  "license": "ISC"
+}

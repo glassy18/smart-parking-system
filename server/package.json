@@ -1,0 +1,14 @@
+{
+  "name": "smart-parking-server",
+  "version": "1.0.0",
+  "description": "Express.js backend with in-memory state and Greedy Parking algorithm for DAA project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/greedyParking.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
